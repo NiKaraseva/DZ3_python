@@ -12,8 +12,6 @@ my_list = []
 
 for i in range(size):
     my_list.append(round((random.uniform(0.25, 10.25)), random.randint(0, 5)))
-
-
 print(*my_list)
 
 new_list = []
@@ -29,7 +27,6 @@ for i in range(len(new_list)):
         max = new_list[i]
     if new_list[i] != 0 and new_list[i] < min:
         min = new_list[i]
-
 
 print(f'Дробная часть {max} – максимальная')
 print(f'Дробная часть {min} – минимальная')
