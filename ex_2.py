@@ -25,11 +25,3 @@ for i in range(len(my_list)):
 print(*multipl)
 
 
-
-# if i >= new_size:
-#         multipl.append(my_list[i] * my_list[size - 1])
-#     size -= 1
-#
-# print(multipl)
-
-
